@@ -1,3 +1,4 @@
+// https://bitbucket.org/brettzink/sendgrid-activity-bookmarklet
 if (typeof jQuery == 'undefined') {
 	var jQ = document.createElement('script');
 	jQ.type = 'text/javascript';
