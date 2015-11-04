@@ -34,8 +34,9 @@ $("[role=emailActivityRow]").each(function(){
 if(email == null) valid = false;
     var date = $(this).find(".time").html();
     var type = $(this).find(".name").html();
+    var category = $(this).find(".category").html();
 if(valid){
-    result += email + "," + type + "," + date;
+    result += email + "," + type + "," + category + "," + date;
     result += "<br/>";
 }
 });
